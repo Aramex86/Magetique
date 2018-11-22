@@ -2,6 +2,7 @@
     max-width: 100%;
     margin-right: auto;
     margin-left: auto;
+    background-color: #f8f8f8;
 }
 .header-wrap{
     background-color: #32d0b1;
@@ -148,11 +149,134 @@
     margin-left: -60px;
     margin-top: 188px;
 }
-
+.img1,.img2{
+    text-align: left;
+}
+.img3{
+    text-align: center;
+}
+.img-description{
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1vw;
+    letter-spacing: 2px;
+}
+/*first-block end*/
 /********************
-
  */
-
+.second-block{
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0 0 0;
+    position: relative;
+}
+.img-circle{
+    opacity: 0.3;
+    width: 75%;
+}
+.img-circle img{
+    width: 40%;
+}
+.second-title{
+    position: absolute;
+    width: 62%;
+    top: 40%;
+    right: 172px;
+}
+.second-title h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5vw;
+    line-height: 80px;
+    font-weight: 300;
+}
+.second-title p{
+    width: 100%;
+    color: #8c8c8c;
+    font-family: 'Roboto', sans-serif;
+    line-height: 37px;
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+/*second block end*/
+/*******************
+ */
+.third-block{
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 150px;
+}
+.third-text{
+    width: 36%;
+}
+.third-imgwrap{
+    display: flex;
+}
+.third-imgwrap img{
+    width: 100%;
+}
+.third-img2,.third-img3{
+    align-self: flex-end;
+}
+.third-img1{
+    order: 2;
+}
+.third-img2{
+    order: 1;
+}
+.third-img3{
+    order: 3;
+}
+.third-text h2{
+    padding: 182px 0 0 0;
+    font-size: 3.2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.third-text p{
+    width: 90%;
+    color: #8c8c8c;
+    font-family: 'Roboto', sans-serif;
+    line-height: 37px;
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+/*third-block end*/
+/**********************
+ */
+.forth-block{
+    padding: 150px 0 0 0;
+    text-align: center;
+    height: 800px;
+}
+.forth-text h2{
+    font-size: 3.2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.forth-text p{
+    width: 62%;
+    color: #8c8c8c;
+    font-family: 'Roboto', sans-serif;
+    line-height: 37px;
+    font-size: 1.5vw;
+    font-weight: 300;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.forth-imgwrap{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.forth-imgwrap img{
+    width: 100%;
+    box-shadow: 1px 1px 4px 1px rgba(128, 128, 128, 0.2);
+}
 
 
 
