@@ -248,9 +248,8 @@
 /**********************
  */
 .forth-block{
-    padding: 150px 0 0 0;
+    padding: 150px 0 150px 0;
     text-align: center;
-    height: 800px;
 }
 .forth-text h2{
     font-size: 3.2vw;
@@ -277,6 +276,67 @@
     width: 100%;
     box-shadow: 1px 1px 4px 1px rgba(128, 128, 128, 0.2);
 }
+/*forth-block end*/
+/*********************
+ */
+.fith-block{
+    text-align: center;
+    padding: 0 0 150px 0;
+}
+.fith-text h2{
+    font-size: 3.2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.fith-text p{
+    width: 73%;
+    color: #8c8c8c;
+    font-family: 'Roboto', sans-serif;
+    line-height: 37px;
+    font-size: 1.3vw;
+    font-weight: 300;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.fith-imgwrap{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 60px 0 60px;
+    flex-wrap: wrap;
+}
+/*fith-block end*/
+/***********************
+ */
+.six-block{
+    text-align: center;
+}
+.six-text h2{
+    font-size: 3.0vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 100px;
+    line-height: 67px;
+}
+.six-text span{
+    color: #32d0b1;
+}
+.service-listwrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.service-list li{
+    width: 50px;
+}
+.service-list{
+    width: 100%;
+}
+
+
+
+
 
 
 
