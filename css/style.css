@@ -310,6 +310,7 @@
  */
 .six-block{
     text-align: center;
+    padding-bottom: 80px;
 }
 .six-text h2{
     font-size: 3.0vw;
@@ -325,21 +326,135 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    flex-direction: row;
+    padding: 0 152px;
+    font-family: 'Roboto', sans-serif;
+    color: #2b2b2b;
+    font-size: 1.3vw;
+    font-weight: 300;
 }
-.service-list li{
-    width: 50px;
+.service-listwrap div{
+    width: 170px;
+    height: 78px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    text-align: center;
 }
-.service-list{
+.service-listwrap img{
+    margin-bottom: 10px;
+}
+/*six-block end*/
+/******************
+ */
+.seven-block {
+    display: flex;
+    padding-bottom: 250px;
+}
+.seven-text{
+    width: 40%;
+    padding: 0 100px;
+}
+.seven-text h2{
+    padding: 100px 0 0 0;
+    font-size: 3.1vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.seven-text p{
+    width: 90%;
+    color: #8c8c8c;
+    font-family: 'Roboto', sans-serif;
+    line-height: 37px;
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+.seven-imgwrap{
+    width: 60%;
+    position: relative;
+}
+.seven-imgwrap img:nth-child(2){
+    position: absolute;
+    right: 140px;
+    top: 91px;
+}
+/*seven-block end*/
+/******************
+ */
+.eight-block{
+    text-align: center;
+    padding-bottom: 150px;
+}
+.eight-text h2{
+    padding: 100px 0 0 0;
+    font-size: 3.1vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.eight-imgwrap{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+.eight-imgwrap img{
+    display: flex;
+}
+.eight-imgwrap h3{
+    margin:0 0 20px 0;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+}
+.eight-imgwrap p{
+    font-family: 'Roboto', sans-serif;
+    width: 92%;
+    font-size: 1.2vw;
+    line-height: 34px;
+    color: #8c8c8c;
+    font-weight: 300;
+}
+/*eight-block end */
+/*********************
+ */
+.nine-block{
+    background-image: url("../images/nine-blockimg1.jpg");
     width: 100%;
+    background-repeat: no-repeat;
+    padding: 192px;
 }
-
-
-
-
-
-
-
+.nine-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+    text-align: right;
+}
+.nine-text h2{
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 67px;
+    font-weight: 300;
+    color: white;
+}
+.nine-text button{
+    width: 157px;
+    height: 57px;
+    margin-top: 25px;
+    margin-right: 250px;
+    background-color: initial;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.copy{
+    font-family: 'Roboto', sans-serif;
+    color: #8c8c8c;
+    font-size: 14px;
+    padding: 17px 0;
+    text-align: center;
+}
+/*footer end*/
 
 
 
