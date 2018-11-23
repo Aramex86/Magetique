@@ -205,11 +205,13 @@
 /*second block end*/
 /*******************
  */
-.third-block{
+.third-block {
     background-color: #f8f8f8;
     display: flex;
     justify-content: space-evenly;
     padding-top: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .third-text{
     width: 36%;
