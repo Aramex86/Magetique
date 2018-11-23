@@ -24,8 +24,8 @@
 @media screen and (max-width: 1370px){
     .seven-imgwrap img:nth-child(2) {
         position: absolute;
-        right: 10.4%;
-        top: 14.4%;
+        right: 11.4%;
+        top: 20.4%;
     }
     .nine-block {
         background-image: url(../images/nine-blockimg1.jpg);
@@ -33,6 +33,17 @@
         background-repeat: no-repeat;
         padding: 115px;
         background-size: cover;
+    }
+    .seven-text{
+        width: 50%;
+        padding: 0 64px;
+    }
+    .seven-text h2{
+        padding: 41px 0 0 0;
+        font-size: 3.1em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        margin-bottom: 20px;
     }
 
 }
