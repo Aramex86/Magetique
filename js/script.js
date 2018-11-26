@@ -1,10 +1,20 @@
 $(function () {
     $('.inside-hover').mouseover(function () {
-       $('.inside-hover').addClass('onhover');
-       $('.text-btn').addClass('onhover1');
+        $('.inside-skale').show();
     });
     $('.inside-hover').mouseout(function () {
-        $('.inside-hover').removeClass('onhover');
-        $('.text-btn').removeClass('onhover1');
+        $('.inside-skale').hide();
     });
+
+
+
+
+
+
+
+
+
+
+
+
 });
