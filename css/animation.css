@@ -1,0 +1,39 @@
+.img2{
+    animation-delay: 0.5s;
+}
+.img5{
+    animation-delay: 0.5s;
+}
+.third-img1{
+    animation-duration: 0.5s;
+}
+.third-img2{
+    animation-delay: 1s;
+}
+.third-img3{
+    animation-delay: 1s;
+}
+.forth-img2,.forth-img4{
+    animation-delay: 1s;
+}
+.forth-img1,.forth-img5{
+    animation-delay: 1s;
+}
+.fith-img2{
+    animation-delay: 0.5s;
+}
+.fith-img3{
+    animation-delay: 1s;
+}
+.fith-img4{
+    animation-delay: 1.5s;
+}
+.section3{
+    animation-delay: 0.5s;
+}
+.section2{
+    animation-delay: 0.5s;
+}
+.section1{
+    animation-delay: 5s;
+}
