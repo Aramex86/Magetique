@@ -4,10 +4,15 @@ $(function () {
         if(height > 150){
             $('.arrow-top').fadeIn(200);
             $('.logo').fadeOut(100);
+            $('.nav-links').css('width','100%');
+            $('.nav-links').css('margin-left','0px');
+            $('.navi-bar ul').css('display','block');
         }else{
             $('.arrow-top').fadeOut(200);
             $('.logo').fadeIn(100);
-
+            $('.nav-links').css('width','65%');
+            $('.navi-bar ul').css('display','flex');
+            $('.nav-links').css('margin-left','-50px');
         }
     });
     $('.arrow-top').click(function (event) {

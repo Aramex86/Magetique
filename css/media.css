@@ -271,10 +271,19 @@
         background-repeat: no-repeat;
         background-position: center center;
     }
+    .inside-btn {
+        background-color: initial;
+        border: none;
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        line-height: 42px;
+    }
     .nav-links {
         width: 65%;
         align-self: center;
-        margin-left: 5px;
+        margin-left: -50px;
     }
 
     .navtop {
