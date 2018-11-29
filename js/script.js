@@ -19,47 +19,94 @@ $(function () {
         $('html, body').animate({scrollTop:0},'slow');
         return false
     });
+    function animateBlocks() {
+        function firstBlock(){
+            $(window).scroll(function () {
+                var scrTop =$(window).scrollTop();
+                if (scrTop > $('.first-block').offset().top - $(window).height()){
+                    $('.img1').addClass('animated fadeInRight');
+                    $('.img2').addClass('animated fadeInRight');
+                    $('.img4').addClass('animated fadeInLeft');
+                    $('.img5').addClass('animated fadeInLeft');
+                }
+            });
 
-    var firstBlock = $('.img1');
-    var pos = firstBlock.position();
-    $(window).scroll(function () {
-        var windowpos = $(window).scrollTop();
-        if (windowpos >= pos.top & windowpos <= 1000){
-            $('.img1').addClass('animated fadeInRight');
-            $('.img2').addClass('animated fadeInRight');
-            $('.img4').addClass('animated fadeInLeft');
-            $('.img5').addClass('animated fadeInLeft');
         }
-    });
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-    function myFunction() {
-       // if (document.body.scrollTop > 633 || document.documentElement.scrollTop > 633)
-        if (document.body.scrollTop === 633 || document.documentElement.scrollTop > 633) {
-            $('.img1').addClass('animated fadeInRight');
-            $('.img2').addClass('animated fadeInRight');
-            $('.img4').addClass('animated fadeInLeft');
-            $('.img5').addClass('animated fadeInLeft');
-        } else {
-            $('.img1').removeClass('animated fadeInRight');
-            $('.img2').removeClass('animated fadeInRight');
-            $('.img4').removeClass('animated fadeInLeft');
-            $('.img5').removeClass('animated fadeInLeft');
+        function thirdBlock(){
+            $(window).scroll(function () {
+                var scrTop =$(window).scrollTop();
+                if (scrTop > $('.third-imgwrap').offset().top - $(window).height()){
+                    $('.third-img1').addClass('animated fadeInUp');
+                    $('.third-img2').addClass('animated fadeInRight');
+                    $('.third-img3').addClass('animated fadeInLeft');
+                }
+            });
         }
+        function forthBlock(){
+            $(window).scroll(function () {
+                var scrTop = $(window).scrollTop();
+                if (scrTop > $('.forth-block').offset().top - $(window).height()){
+                    $('.forth-img1').addClass('animated fadeInLeft');
+                    $('.forth-img2').addClass('animated fadeInUp');
+                    $('.forth-img3').addClass('animated fadeInUp');
+                    $('.forth-img4').addClass('animated fadeInUp');
+                    $('.forth-img5').addClass('animated fadeInRight');
+                }
+            });
+        }
+        function fithBlock(){
+            $(window).scroll(function () {
+                var scrTop = $(window).scrollTop();
+                if(scrTop > $('.fith-imgwrap').offset().top - $(window).height()){
+                    $('.fith-img1').addClass('animated fadeInUp');
+                    $('.fith-img2').addClass('animated fadeInUp');
+                    $('.fith-img3').addClass('animated fadeInUp');
+                    $('.fith-img4').addClass('animated fadeInUp');
+                }
+            });
+        }
+        function sevenBlock(){
+            $(window).scroll(function () {
+                var scrTop = $(window).scrollTop();
+                if(scrTop > $('.seven-block').offset().top - $(window).height()){
+                    $('.seven-text').addClass('animated fadeInUp');
+                    $('.seven-imgwrap').addClass('animated fadeInRight');
+                }
+            });
+        }
+        function eightBlock(){
+            $(window).scroll(function () {
+                var scrTop = $(window).scrollTop();
+                if(scrTop > $('.eight-block').offset().top - $(window).height()){
+                    $('.section1').addClass('animated fadeInLeft');
+                    $('.section2').addClass('animated fadeInLeft');
+                    $('.section3').addClass('animated fadeInLeft');
+                    $('.section4').addClass('animated fadeInLeft');
+                }
+            });
+        }
+        firstBlock();
+        thirdBlock();
+        forthBlock();
+        fithBlock();
+        sevenBlock();
+        eightBlock()
     }
+animateBlocks();
 
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
