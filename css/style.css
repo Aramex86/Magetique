@@ -33,7 +33,7 @@
     width: 100%;
     position: fixed;
     text-align: center;
-    height: 50px;
+    height: 70px;
     top: 0;
     z-index: 999;
     background-color: #32d0b1;
@@ -53,7 +53,6 @@
     align-self: center;
 }
 .navi-bar ul{
-    padding-top: 20px;
     width: 75%;
 }
 .navi-bar a{
@@ -416,6 +415,10 @@
 .seven-block {
     display: flex;
     padding-bottom: 225px;
+}
+#seven-block{
+    padding-bottom: 70px;
+    background-color: #f8f8f8;
 }
 .seven-text{
     width: 50%;

@@ -3,15 +3,11 @@ $(function () {
         var height = $(window).scrollTop();
         if(height > 150){
             $('.arrow-top').fadeIn(200);
-            $('.logo').fadeOut(100);
-            $('.logo').css('padding-left','0px');
-            $('.navi-bar ul').css('width','100%');
-            $('.navi-bar ul').css('padding-top','0px');
-        }else {
+            $('.logo').addClass('animated fadeOutUp');
+        }else{
             $('.arrow-top').fadeOut(200);
-            $('.logo').fadeIn(100);
-            $('.logo').css('padding-left','119px');
-            $('.navi-bar ul').css('width','75%');
+            $('.logo').removeClass('animated fadeOutUp');
+
         }
     });
     $('.arrow-top').click(function (event) {
