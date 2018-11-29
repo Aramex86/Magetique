@@ -3,10 +3,10 @@ $(function () {
         var height = $(window).scrollTop();
         if(height > 150){
             $('.arrow-top').fadeIn(200);
-            $('.logo').addClass('animated fadeOutUp');
+            $('.logo').fadeOut(100);
         }else{
             $('.arrow-top').fadeOut(200);
-            $('.logo').removeClass('animated fadeOutUp');
+            $('.logo').fadeIn(100);
 
         }
     });

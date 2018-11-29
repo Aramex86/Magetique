@@ -4,6 +4,13 @@
         right: 10.7%;
         top: 19.9%;
     }
+    .nav-links {
+        width: 65%;
+        align-self: center;
+        margin-left: 291px;
+    }
+
+
 }
 @media screen and (min-width: 1540px) and (max-width: 1950px){
     .seven-imgwrap img:nth-child(2) {
@@ -26,13 +33,6 @@
         position: absolute;
         right: 11.4%;
         top: 20.4%;
-    }
-    .nine-block {
-        background-image: url(../images/nine-blockimg1.jpg);
-        width: 100%;
-        background-repeat: no-repeat;
-        padding: 115px;
-        background-size: cover;
     }
     .seven-text{
         width: 50%;
@@ -136,9 +136,7 @@
     .nine-text {
         display: flex;
         flex-direction: column;
-        width: 125%;
-        align-items: flex-end;
-        text-align: right;
+        justify-content: center;
     }
     .nine-text h2 {
         width: 100%;
@@ -146,7 +144,6 @@
         font-size: 3.3em;
         font-weight: 300;
         color: white;
-        margin-top: -111px;
     }
     .nine-text button {
         width: 157px;
@@ -238,20 +235,48 @@
     .nine-text {
         display: flex;
         flex-direction: column;
-        width: 147%;
-        align-items: flex-end;
-        text-align: right;
+        justify-content: center;
     }
     .nine-text h2 {
         width: 100%;
         font-family: 'Roboto', sans-serif;
-        font-size: 3em;
+        font-size: 2em;
         font-weight: 300;
         color: white;
-        margin-top: -111px;
     }
+    .nine-text button {
+        width: 153px;
+        height: 48px;
+        margin-top: 25px;
+        margin-left: 83px;
+        background-color: initial;
+        border: 1px solid white;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+
 }
 @media screen and (max-width: 425px){
+    .arrow-top {
+        position: fixed;
+        right: 1%;
+        bottom: 2%;
+        width: 50px;
+        height: 50px;
+        z-index: 9;
+        background-color: rgba(255, 255, 255, 0.62);
+        border-radius: 50%;
+        background-image: url(../images/arrow-top.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .nav-links {
+        width: 65%;
+        align-self: center;
+        margin-left: 5px;
+    }
+
     .navtop {
         display: flex;
         flex-direction: column;
@@ -509,27 +534,28 @@
     .section3, .section4 {
         width: 100%;
     }
-    .nine-block {
-        background-image: url(../images/nine-blockimg1.jpg);
+    .nine-img {
         width: 100%;
-        background-repeat: no-repeat;
-        padding: 26px;
-        background-size: cover;
+        display: flex;
+        height: 100%;
+        overflow: hidden;
+    }
+    .nine-img img {
+        width: 100%;
+        height: 50%;
     }
     .nine-text {
         display: flex;
         flex-direction: column;
-        width: 107%;
-        align-items: flex-end;
-        text-align: right;
+        justify-content: center;
     }
     .nine-text h2 {
         width: 100%;
         font-family: 'Roboto', sans-serif;
-        font-size: 2em;
+        font-size: 1.5em;
         font-weight: 300;
         color: white;
-        margin-top: -18px;
+        /* margin-top: -18px; */
     }
     .nine-text button {
         width: 114px;
