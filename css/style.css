@@ -77,12 +77,15 @@
     color: rgba(0, 0, 0, 0.78);
 }
 .logo{
-    width: 35%;
+    width: 40%;
 }
 .nav-links{
-    width: 65%;
+    width: 60%;
     align-self: center;
-    margin-left: 100px;
+    display: flex;
+
+
+
 }
 .header-bottom{
     display: flex;
